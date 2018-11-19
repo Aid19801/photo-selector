@@ -84,10 +84,10 @@
     ],
     "resolver": "jest-pnp-resolver",
     "setupFiles": [
-      "<rootDir>/src/setupTests.js"
+      "<rootDir>/setupTests.js"
     ],
     "testMatch": [
-      "<rootDir>/src/__tests__/*.test.js"
+      "<rootDir>/src/__tests__/*.js"
     ],
     "testEnvironment": "jsdom",
     "testURL": "http://localhost",
