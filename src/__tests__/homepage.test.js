@@ -1,5 +1,5 @@
 import React from 'react';
-import ShallowRenderer from 'react-test-renderer/shallow';
+import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
 import { HomePage, PhotoGallery } from '../containers';

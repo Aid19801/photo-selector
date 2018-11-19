@@ -65,7 +65,7 @@ class PhotoGallery extends Component {
           <Infinite containerHeight={200} elementHeight={50} useWindowAsScrollContainer>
             { photos.map((each, i) => {
               return (
-                <div onClick={() => this.selectPhoto(each.url)} key={i}>
+                <div className="eachPhotoContainer" onClick={() => this.selectPhoto(each.url)} key={i}>
                     <img className={styles.img} src={each.thumbnailUrl} ref="img-tn" />
                     <p className={styles.title}>{each.title}</p>
                 </div>
