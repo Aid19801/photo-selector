@@ -17,8 +17,7 @@
   "jest": {
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
-    },
-    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
