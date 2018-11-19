@@ -1,0 +1,22 @@
+body {
+    background: url('https://i.pinimg.com/originals/e4/5f/54/e45f54e2cc5516e2210c34453db5ab6e.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 5px solid black;
+}
+
+.heading {
+    font-family: 'Ranga', cursive;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 50px;
+}

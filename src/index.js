@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
 
-const Index =() => (
+import { HomePage } from './containers';
+
+const App =() => (
       <div>
-          <h1>hello world</h1>
+          <HomePage />
       </div>
 );
 
-ReactDOM.render(<Index />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

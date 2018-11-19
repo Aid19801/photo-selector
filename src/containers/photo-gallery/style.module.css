@@ -1,0 +1,41 @@
+.galleryContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    margin: 3rem 2rem;
+    width: 80%;
+
+    padding-top: 5vh;
+}
+
+.img {
+    border: 1px solid white;
+}
+
+.img:hover {
+    border: 2px solid white;
+}
+
+.title {
+    font-family: 'Ranga', cursive;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+}
+
+.error {
+    font-family: 'Ranga', cursive;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 50px;
+}
+
+.loading {
+    font-family: 'Ranga', cursive;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 50px;
+}
