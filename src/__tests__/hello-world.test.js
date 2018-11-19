@@ -1,8 +1,13 @@
 import React from 'react';
 import ShallowRenderer from 'react-test-renderer/shallow';
+
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+configure({ adapter: new Adapter() });
+
 import { mount } from 'enzyme';
 
-import HomePage from './hello-world';
+import HomePage from '../hello-world';
 
 test('1 Hello World', () => {
   const renderer = new ShallowRenderer();
@@ -11,6 +16,7 @@ test('1 Hello World', () => {
   expect(result.type).toBe('h1')
   expect(result.props.children).toEqual('yoyoyoyo')
 });
+
 test('2 Hello World', () => {
   const wrapper = mount(<HomePage />);
   expect(wrapper).toBeTruthy();
