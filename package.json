@@ -2,7 +2,7 @@
   "name": "photo-selector",
   "version": "1.0.0",
   "author": "Adrian Thompson",
-  "license": "None",
+  "license": "MIT",
   "private": false,
   "dependencies": {
     "@svgr/webpack": "2.4.1",
@@ -84,10 +84,10 @@
     ],
     "resolver": "jest-pnp-resolver",
     "setupFiles": [
-      "<rootDir>/src/__tests__/**/*.{js}"
+      "<rootDir>/src/setupTests.js"
     ],
     "testMatch": [
-      "<rootDir>/setupTests.js"
+      "<rootDir>/src/__tests__/*.test.js"
     ],
     "testEnvironment": "jsdom",
     "testURL": "http://localhost",

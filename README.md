@@ -1,4 +1,9 @@
 
 node version 10.13.0
-start the app: run yarn start
+git clone
+cd photo-selector
+yarn / npm install
+start the app: yarn start
 test the app: yarn test
+
+
