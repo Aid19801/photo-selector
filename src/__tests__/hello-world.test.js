@@ -1,10 +1,6 @@
 import React from 'react';
 import ShallowRenderer from 'react-test-renderer/shallow';
 
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-configure({ adapter: new Adapter() });
-
 import { mount } from 'enzyme';
 
 import HomePage from '../hello-world';
