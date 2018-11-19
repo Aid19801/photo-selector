@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { Modal } from '../../components';
 
 import * as actions from './constants';
-import styles from './style.css';
+import styles from './style.module.css';
 
 class PhotoGallery extends Component {
 

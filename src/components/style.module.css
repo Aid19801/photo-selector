@@ -1,0 +1,15 @@
+.img {
+    width: 400px;
+    height: 300px;
+}
+
+.modalContainer {
+    height: 400px;
+    width: 500px;
+}
+
+.modal {
+    max-width: -webkit-fill-available;
+    max-height: -webkit-fill-available;
+    border: 5px solid white;
+}
