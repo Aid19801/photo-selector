@@ -1,5 +1,4 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
 import { HomePage, PhotoGallery } from '../containers';
@@ -25,17 +24,3 @@ describe('Homepage', () => {
       expect(wrapper.contains(<PhotoGallery />)).toBe(true);
   });
 });
-
-
-// test('1 Hello World', () => {
-//   const renderer = new ShallowRenderer();
-//   renderer.render(<HomePage />);
-//   const result = renderer.getRenderOutput();
-//   expect(result.type).toBe('h1')
-//   expect(result.props.children).toEqual('yoyoyoyo')
-// });
-
-// test('2 Hello World', () => {
-//   const wrapper = mount(<HomePage />);
-//   expect(wrapper).toBeTruthy();
-// });

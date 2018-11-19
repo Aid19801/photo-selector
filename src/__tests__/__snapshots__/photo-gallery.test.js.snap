@@ -1,52 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Photo Gallery should give user option to select a photo 1`] = `
-<div
-  className="galleryContainer"
->
-  <div
-    className=""
-    onScroll={[Function]}
-    style={Object {}}
-  >
-    <div
-      style={Object {}}
-    >
-      <div
-        style={
-          Object {
-            "height": 0,
-            "width": "100%",
-          }
-        }
-      />
-      <div
-        className="eachPhotoContainer"
-        onClick={[Function]}
-      >
-        <img
-          className="img"
-          src="http://thumbnail.net"
-        />
-        <p
-          className="title"
-        >
-          mock-title
-        </p>
-      </div>
-      <div
-        style={
-          Object {
-            "height": 0,
-            "width": "100%",
-          }
-        }
-      />
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Photo Gallery should match the quick n dirty snapshot... 1`] = `
 <div
   className="galleryContainer"
